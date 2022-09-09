@@ -1,0 +1,30 @@
+.background {
+  background-image: url('./beach.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+}
+
+.headerText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+  margin: 0 30px 10px 30px;
+  padding-top: 180px;
+}
+
+.title {
+  font-size: 30px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 15px;
+  font-weight: 100;
+}

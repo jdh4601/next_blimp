@@ -1,0 +1,20 @@
+.footer-container {
+  position: absolute;
+  bottom: 0px;
+  height: 200px;
+  width: 100%;
+  background-color: rgb(228, 228, 228);
+}
+
+.title {
+  margin-left: 20px;
+  color: gray;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.desc {
+  margin-left: 20px;
+  color: rgb(155, 155, 155);
+  font-size: 15px;
+}

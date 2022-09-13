@@ -1,5 +1,5 @@
 # Blimp Clone with React js
-It's clone of Blimp, using javascript framework.
+It's clone of Blimp, using React js.
 
 ## Features
 - React-router-dom

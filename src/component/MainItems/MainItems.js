@@ -11,34 +11,38 @@ function MainItems() {
     {
       id: '1',
       img: img1,
-      desc: '레스토랑 / 카페',
+      sector: '레스토랑 / 카페',
       title: 'rooftop',
       price: '30000원',
       score: '5 ⭐️',
+      discount: '33%',
     },
     {
       id: '2',
       img: img2,
-      desc: '문화',
+      sector: '문화',
       title: 'restaurant',
       price: '20000원',
       score: '4.5 ⭐️',
+      discount: '12%',
     },
     {
       id: '3',
       img: img3,
-      desc: '레스토랑 / 카페',
+      sector: '레스토랑 / 카페',
       title: 'hotel',
       price: '30000원',
       score: '4 ⭐️',
+      discount: '20%',
     },
     {
       id: '4',
       img: img1,
-      desc: '문화',
+      sector: '문화',
       title: 'bar',
       price: '30000원',
       score: '3.5 ⭐️',
+      discount: '40%',
     },
   ];
 
@@ -56,7 +60,8 @@ function MainItems() {
       picture={place.img}
       title={place.title}
       price={place.price}
-      desc={place.desc}
+      sector={place.sector}
+      discount={place.discount}
     />
   ));
 

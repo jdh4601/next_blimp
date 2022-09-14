@@ -10,6 +10,7 @@
   width: 180px;
   height: 380px;
   margin: 10px;
+  cursor: pointer;
 }
 
 .container {
@@ -37,20 +38,26 @@
   transform: scale(1.05);
 }
 
-.desc {
-  font-size: 10px;
-  color: gray;
-}
 
 .text-box {
   margin-left: 10px;
 }
 
-.text-box .price {
+.text-box.sector {
+  font-size: 10px;
+  color: gray;
+}
+
+.price {
   font-size: 20px;
 }
 
-.text-box .title {
+.title {
   font-size: 20px;
   font-weight: 400;
+}
+
+.text-box .priceContainer {
+  display: flex;
+  flex-direction: row;
 }

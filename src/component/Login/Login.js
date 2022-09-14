@@ -3,7 +3,7 @@ import Card from '../UI/Card';
 import styles from './Login.module.css';
 import Button from '../UI/Button';
 import MainHeader from '../MainHeader/MainHeader';
-import LoginModal from '../Modal/LoginModal';
+// import LoginModal from '../Modal/LoginModal';
 
 function Login(props) {
   const [enteredEmail, setEnteredEmail] = useState('');
